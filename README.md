@@ -1,4 +1,4 @@
-![Screenshot (3)](https://user-images.githubusercontent.com/121557017/210071646-7e5d58f8-ceda-428d-aed2-7bf0f346543d.png)
+
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
@@ -60,16 +60,26 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
 
-module expone(a,b,y1,y2,y3,y4,y5,y6,y7);
+module expone(a,b,y1,y2,y3,y4,y5,y6,y7); 
+
 input a,b;
+
 output y1,y2,y3,y4,y5,y6,y7;
+
 and(y1,a,b);
+
 or(y2,a,b);
+
 nor(y3,a);
+
 xor(y4,a,b);
+
 nand(y5,a,b);
+
 nor(y6,a,b);
+
 xnor(y7,a,b);
+
 endmodule
 
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
